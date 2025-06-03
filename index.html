@@ -6,26 +6,70 @@
     <title>Vivi & Roli – Esküvői meghívó</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 2rem; background-color: #f9f9f9; }
-        h1 { color: #8b3dff; }
-        a {
+        body {
+            font-family: sans-serif;
+            background-color: #f5f5dc;
+            color: #222;
+            margin: 0;
+            padding: 2rem;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #111;
+        }
+        .section {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+            border-radius: 12px;
+        }
+        a.button {
             display: inline-block;
-            margin-top: 2rem;
-            padding: 1rem 2rem;
             background-color: #8b3dff;
             color: white;
+            padding: 1rem 2rem;
             text-decoration: none;
-            border-radius: 10px;
             font-weight: bold;
+            border-radius: 10px;
+            margin-top: 1rem;
         }
-        a:hover {
-            background-color: #6f2bd9;
+        a.button:hover {
+            background-color: #6a2ccc;
         }
     </style>
 </head>
 <body>
-    <h1>Vivi & Roli esküvője – 2026. szeptember 5.</h1>
-    <p>Örülünk, hogy ellátogattál az oldalunkra! 💍</p>
-    <a href="rsvp.html">Kattints ide az RSVP űrlaphoz 💌</a>
+
+    <div class="section">
+        <h1>Vivi & Roli</h1>
+        <p style="text-align: center;">Esküvő – 2026. szeptember 5.<br>Győr, Achilles Park</p>
+    </div>
+
+    <div class="section">
+        <h2>Program</h2>
+        <p>14:00 – Érkezés, vendégfogadás<br>
+           15:00 – Polgári szertartás<br>
+           16:00 – Gratulációk, pezsgőzés<br>
+           17:00 – Vacsora<br>
+           19:00 – Buli, tánc hajnalig!</p>
+    </div>
+
+    <div class="section" style="text-align: center;">
+        <h2>RSVP</h2>
+        <p>Kérlek, csak akkor töltsd ki az űrlapot, ha már biztosan tudod, hogy részt tudtok-e venni!<br>
+           Ha gyermekkel érkeztek, azt is jelezzétek – egy kis meglepetéssel készülünk nekik! 🎁</p>
+        <a class="button" href="rsvp.html">Kattints ide az RSVP űrlaphoz 💌</a>
+    </div>
+
+    <div class="section">
+        <h2>Képek megosztása</h2>
+        <p>Az esküvő alatt lehetőséged lesz képeket feltölteni egy külön linkre (pl. Google Drive vagy más galéria).
+           A pontos linket és QR kódot a meghívón találod majd meg.</p>
+
+        <h2>Galéria</h2>
+        <p>Itt lesznek megtekinthetők az esküvő során feltöltött képek. (A galéria linkje ide fog kerülni.)</p>
+    </div>
+
 </body>
 </html>
